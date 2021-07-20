@@ -19,7 +19,7 @@ export default function UserList(){
         <div>
             <table className="table table-bordered table-hover table-responsive">
                 <thead>
-                    <tr>
+                    <tr key={index}>
                        
                         <td> <b> FirstName </b></td>
                         <td><b>Age </b></td>
