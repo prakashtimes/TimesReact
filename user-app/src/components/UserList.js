@@ -20,8 +20,11 @@ export default function UserList(){
             <table className="table table-bordered table-hover table-responsive">
                 <thead>
                     <tr>
-                        <td> FirstName</td>
-                        <td>Age</td>
+                       
+                        <td> <b> FirstName </b></td>
+                        <td><b>Age </b></td>
+                        <td><b>Joining Date</b></td>
+                        
                     </tr>
 
                 </thead>
@@ -29,6 +32,7 @@ export default function UserList(){
                     {users.map((user, index) => <tr>
                             <td>{user.firstname}</td>
                             <td>{user.age}</td>
+                            <td>{user.date}</td>
                         </tr>
                     )}
                 </tbody>
